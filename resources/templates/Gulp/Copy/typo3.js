@@ -12,7 +12,7 @@ let copyToSitePackage = (done) => {
     './public/Fonts/**/*',
     './public/Images/**/*',
     './public/Videos/**/*',
-    './public/JavaScript/*'
+    './public/JavaScript/**/*'
   ], {
     base: './public'
   })
