@@ -1,0 +1,50 @@
+{
+  "name": "bu/sitename",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./packages/*"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-json":  "*",
+    "ext-pdo":  "*",
+
+    "typo3/minimal": "^10.4",
+    "typo3/cms-belog": "^10.4",
+    "typo3/cms-beuser": "^10.4",
+    "typo3/cms-fluid-styled-content": "^10.4",
+    "typo3/cms-form": "^10.4",
+    "typo3/cms-info": "^10.4",
+    "typo3/cms-recycler": "^10.4",
+    "typo3/cms-rte-ckeditor": "^10.4",
+    "typo3/cms-setup": "^10.4",
+    "typo3/cms-seo": "^10.4",
+    "typo3/cms-lowlevel": "^10.4",
+    "typo3/cms-reports": "^10.4",
+    "typo3/cms-t3editor": "^10.4",
+    "typo3/cms-tstemplate": "^10.4",
+    "typo3/cms-scheduler": "^10.4",
+    "typo3/cms-adminpanel": "^10.4",
+    "typo3/cms-felogin": "^10.4",
+    "typo3/cms-impexp": "^10.4",
+	"typo3/cms-redirects": "^10.4",
+
+    "helhum/typo3-console": "^6.3.0",
+	"georgringer/news": "^8.2.0",
+
+	"bu/sitepackage_name": "1.0.0"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "scripts": {
+    "typo3:console": [
+      "export TYPO3_CONTEXT=\"Development\"; export ADDITIONAL_CONFIG_FILE=\"../../../AdditionalConfiguration.php\"; typo3cms install:generatepackagestates",
+      "export TYPO3_CONTEXT=\"Development\"; export ADDITIONAL_CONFIG_FILE=\"../../../AdditionalConfiguration.php\"; typo3cms install:extensionsetupifpossible"
+    ]
+  }
+}

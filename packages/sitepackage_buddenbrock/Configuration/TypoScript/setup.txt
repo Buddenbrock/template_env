@@ -1,0 +1,3 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:sitepackage_buddenbrock/Configuration/TypoScript/Page/Setup" extension="txt">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:sitepackage_buddenbrock/Configuration/TypoScript/ContentElements/" extension="txt">
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:sitepackage_buddenbrock/Configuration/TypoScript/Extesions/" extension="txt">

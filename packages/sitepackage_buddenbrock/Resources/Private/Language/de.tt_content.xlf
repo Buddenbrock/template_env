@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="de" datatype="plaintext" original="messages" product-name="sitepackage_buddenbrock">
+        <header/>
+        <body>
+            <trans-unit id="label.blockstyle.p">
+                <target>Textabsatz</target>
+            </trans-unit>
+            <trans-unit id="label.header_layout.1">
+                <target>Seitenüberschrift</target>
+            </trans-unit>
+            <trans-unit id="label.header_layout.2">
+                <target>Überschrift</target>
+            </trans-unit>
+            <trans-unit id="label.header_layout.3">
+                <target>Zwischenüberschrift</target>
+            </trans-unit>
+            <trans-unit id="label.header_layout.4">
+                <target>kleine Zwischenüberschrift</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

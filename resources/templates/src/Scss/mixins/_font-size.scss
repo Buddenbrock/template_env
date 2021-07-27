@@ -1,0 +1,54 @@
+/*
+ * Here you can define global font-sizes which you can use in all modules for getting an consistent font look
+ * useage: @include variable;
+ */
+
+@mixin font-size-xs {
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+@mixin font-size-s {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+@mixin font-size-m {
+    font-size: 1rem;
+    line-height: 1.4rem;
+
+    @media #{$mq-small} {
+        font-size: 1.25rem;
+        line-height: 1.8rem;
+    }
+}
+
+@mixin font-size-l {
+    font-size: calc(1rem + 1.25vw);
+    line-height: calc(1rem + 2.65vw);
+
+    @media #{$mq-medium} {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+@mixin font-size-xl {
+    font-size: calc(1.25rem + 1.875vw);
+    line-height: calc(1.25rem + 2.275vw);
+
+    @media #{$mq-medium} {
+        font-size: 3rem;
+        line-height: 3.4rem;
+    }
+}
+
+@mixin font-size-xxl {
+    font-size: calc(1.5rem + 1.875vw);
+    line-height: calc(1.5rem + 2.275vw);
+
+    @media #{$mq-medium} {
+        font-size: 3.5rem;
+        line-height: 3.4rem;
+    }
+}

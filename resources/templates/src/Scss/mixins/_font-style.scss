@@ -1,0 +1,9 @@
+/*
+ * Set Font-Style
+ * useage: @include font-style(Ubuntu-Regular, bold, normal);
+ */
+@mixin font-style($name, $weight: null, $style: null) {
+    font-family: $name;
+    font-style: $style;
+    font-weight: $weight;
+}

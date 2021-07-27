@@ -1,0 +1,25 @@
+.btn {
+    border: 2px solid $color-primary;
+    border-radius: 0;
+
+    &.btn-primary {
+        background-color: $color-primary;
+
+        &:hover {
+            background-color: transparent;
+            color: $color-primary;
+            border: 2px solid $color-primary;
+        }
+    }
+
+    &.btn-secondary {
+        background-color: $color-secondary;
+        color: $color-primary;
+
+        &:hover {
+            background-color: transparent;
+            color: $color-primary;
+            border: 2px solid $color-secondary;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+/*
+ * With these styling script you get an easy zooming of font-size. You set a basic font-size and by Window resize the font-size is updated proportional.
+ */
+
+$size-querys:  ('22em': 100%,
+                '88em': 105%,
+                '96em': 110%,
+                '104em': 115%,
+                '112em': 120%,
+                '120em': 125%,
+                '128em': 130%,
+                '136em': 135%,
+                '144em': 140%,
+                '152em': 145%,
+                '160em': 150%,
+                '168em': 155%,
+                '176em': 160%,
+                '184em': 165%,
+                '192em': 170%,
+                '200em': 175%,
+                '208em': 180%,
+                '216em': 185%,
+                '244em': 190%,
+                '252em': 195%,
+                '260em': 200%);
+
+@mixin pagezoom {
+    font-size: 87.5%;
+
+    @each $width, $size in $size-querys {
+        @media screen and (min-width: $width) {
+            font-size: $size;
+        }
+    }
+}

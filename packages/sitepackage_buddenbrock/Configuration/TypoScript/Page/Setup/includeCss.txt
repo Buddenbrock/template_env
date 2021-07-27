@@ -1,0 +1,3 @@
+page.includeCSS {
+  styles = EXT:sitepackage_buddenbrock/Resources/Public/Css/main.min.css
+}

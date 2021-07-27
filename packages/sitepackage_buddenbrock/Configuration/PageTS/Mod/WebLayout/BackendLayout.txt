@@ -1,0 +1,1 @@
+<INCLUDE_TYPOSCRIPT: source="DIR:EXT:sitepackage_buddenbrock/Configuration/PageTS/Mod/WebLayout/BackendLayouts/" extension="txt">

@@ -1,0 +1,4 @@
+page.includeJSFooter {
+  bundle = EXT:sitepackage_buddenbrock/Resources/Public/JavaScript/bundle.js
+  app = EXT:sitepackage_buddenbrock/Resources/Public/JavaScript/app.js
+}

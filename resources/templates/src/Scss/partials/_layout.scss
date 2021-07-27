@@ -1,0 +1,28 @@
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body {
+    @include pagezoom;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container {
+    max-width: 1440px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+    @media (max-width: 768px) {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.blog > .container {
+    max-width: 990px;
+}

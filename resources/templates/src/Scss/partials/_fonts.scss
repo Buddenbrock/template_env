@@ -1,0 +1,29 @@
+/***** INFORMATION
+ * If the font only contains one font style, for example only Regular,
+ * the other three font styles (Regular-Italic, Bold, Bold-Italic) should also be configured with this style,
+ * otherwise font errors can occur when using the TYPO3-RTE.
+ * Please don't use imports from fonts.googleapis.com, because it can become to problems with DSGVO.
+ */
+
+// Ubuntu
+@include font-face($font-family-sans-serif, Ubuntu/Ubuntu-Regular, normal, normal, ttf);
+@include font-face($font-family-sans-serif, Ubuntu/Ubuntu-Italic, normal, italic, ttf);
+@include font-face($font-family-sans-serif, Ubuntu/Ubuntu-Bold, bold, normal, ttf);
+@include font-face($font-family-sans-serif, Ubuntu/Ubuntu-BoldItalic, normal, itablic, ttf);
+
+// Pacifico
+@include font-face($font-family-handwrite, Pacifico/Pacifico-Regular, normal, normal, eot woff2 woff svg);
+@include font-face($font-family-handwrite, Pacifico/Pacifico-Regular, normal, italic, eot woff2 woff svg);
+@include font-face($font-family-handwrite, Pacifico/Pacifico-Regular, bold, normal, eot woff2 woff svg);
+@include font-face($font-family-handwrite, Pacifico/Pacifico-Regular, bold, italic, eot woff2 woff svg);
+
+/***** CSS OUTPUT: @include font-face
+ * @font-face {
+ *   font-family: "Ubuntu";
+ *   font-style: normal;
+ *   font-weight: italic;
+ *   src: url("Fonts/TradeGotLig.eot?") format("eot"),
+ *        url("Fonts/TradeGotLig.woff2") format("woff2"),
+ *        url("Fonts/TradeGotLig.woff") format("woff");
+ * }
+ */

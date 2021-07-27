@@ -1,0 +1,65 @@
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 45px;
+    color: $color-primary;
+}
+
+h3 {
+    font-size: 30px;
+    color: $color-highlight;
+}
+
+h4 {
+    font-size: 30px;
+    color: $color-primary;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: $color-primary;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    color: $color-primary;
+
+    &.small {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &.bold,
+    strong {
+        font-weight: 700;
+    }
+}
+
+ul.text-list {
+    list-style-type: none;
+    padding-left: 40px;
+
+    font-size: 20px;
+    line-height: 30px;
+    color: $color-primary;
+
+    li {
+        margin-bottom: 20px;
+
+        &::before {
+            content: "";
+            background-image: url("../images/bullet.svg");
+            background-size: cover;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            position: absolute;
+            left: -40px;
+            top: 4px;
+        }
+    }
+}

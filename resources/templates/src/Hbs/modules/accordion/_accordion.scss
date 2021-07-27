@@ -1,0 +1,18 @@
+details {
+    summary {
+        list-style: none;
+
+        &::marker {
+           display: none;
+        }
+
+        &::before {
+            content: '+';
+        }
+    }
+
+    &[open] summary::before {
+        content: '-';
+    }
+}
+

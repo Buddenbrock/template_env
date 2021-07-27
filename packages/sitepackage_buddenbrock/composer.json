@@ -1,0 +1,23 @@
+{
+	"name": "bu/sitepackage_buddenbrock",
+	"type": "typo3-cms-extension",
+	"description": "Templates für Buddenbrock",
+	"homepage": "http://www.buddenbrock.de",
+	"version": "1.0.0",
+	"require": {
+		"typo3/cms-core": "*",
+		"typo3/cms-rte-ckeditor": "*",
+		"typo3/cms-fluid-styled-content": "*"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Bu\\SitepackageBuddenbock\\": "Classes"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "sitepackage_buddenbrock"
+		}
+	}
+}

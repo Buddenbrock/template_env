@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" product-name="sitepackage_buddenbrock">
+        <header/>
+        <body>
+            <trans-unit id="label.blockstyle.p">
+                <source>Paragraph</source>
+            </trans-unit>
+            <trans-unit id="label.header_layout.1">
+                <source>Header #1</source>
+            </trans-unit>
+            <trans-unit id="label.header_layout.2">
+                <source>Header #2</source>
+            </trans-unit>
+            <trans-unit id="label.header_layout.3">
+                <source>Header #3</source>
+            </trans-unit>
+            <trans-unit id="label.header_layout.4">
+                <source>Header #4</source>
+            </trans-unit>
+            <trans-unit id="label.header_layout.5">
+                <source>Header #5</source>
+            </trans-unit>
+            <trans-unit id="label.blockstyle.blockquote">
+                <source>Blockquote</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
